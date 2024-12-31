@@ -54,9 +54,12 @@ console.log("Add: ", calculator.add(5, 3)); // 8
 console.log("Subtract: ", calculator.subtract(10, 4)); // 6
 console.log("Multiply: ", calculator.multiply(6, 7)); // 42
 console.log("Divide: ", calculator.divide(20, 4)); // 5
+//console.log("Divide by zero: ", calculator.divide(20, 0)); // Division by zero is not allowed.
 console.log("Percent: ", calculator.percent(200, 15)); // 30
 console.log("Calculate Add: 5 + 3 = ", calculator.calculate("add", 5, 3)); // 8
 console.log("Calculate Subtract: 10 - 4 = ", calculator.calculate("subtract", 10, 4)); // 6
 console.log("Calculate Multiply: 6 * 8 = ", calculator.calculate("multiply", 6, 8)); // 42
 console.log("Calculate Divide: 20 / 4 = ", calculator.calculate("divide", 20, 4)); // 5
+//console.log("Calculate Divide: 20 / 0 = ", calculator.calculate("divide", 20, 0));      // Division by zero is not allowed.
 console.log("Calculate Percent: 200 * 10% = ", calculator.calculate("percent", 200, 10)); // 20
+//console.log("Calculate Ololo: 555 $ 333 = ", calculator.calculate("ololo", 555, 333));  // Unsupported operation: ololo
